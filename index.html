@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #D3D3D3;
+    }
+    .container-autobiography {
+      background-color: #fff;
+      border-radius: 2px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin: 50px auto;
+      border: 2px solid black;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .profile-container {
+      background-color: #F5DADF;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      position: relative;
+      border: 2px solid black;
+      text-align:left;
+    }
+    .name, .occupation, .profile-pic {
+      text-align: center; 
+    }
+    .profile-pic {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 5px solid black;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      margin: 0 auto;
+      position: center;
+      z-index: 1;
+      margin-left: 45px;
+    }
+    .profile-title {
+      font-size: 24px;
+      position: absolute;
+      top: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-decoration: none;
+    }
+    .name {
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    .occupation {
+      font-size: 18px;
+      color: #777;
+    }
+    .personal-details {
+      margin-top: 30px;
+    }
+    .skills {
+      margin-top: 30px;
+    }
+    .qualities {
+      margin-top: 30px;
+    }
+      h4{
+      margin-left: 20px;
+    }
+    .section-heading {
+      font-size: 28px;
+      margin-left:40px; 
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 40px;
+      margin-bottom: 40px;
+    }
+    .timeline-item:last-child {
+      margin-bottom: 0;
+    }
+    .timeline-item: {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      background-color: #F5DADF;
+      border-radius: 50%;
+      transform: translateX(-50%);
+      border: 2px solid black;
+    }
+    .timeline-content-2 h3{
+      margin-top: 0;
+      font-size:20px;
+    }
+    .timeline-content-2 p {
+      color: #777;
+      margin: 0;
+    }
+    .timeline-content-1 p {
+      color: black;
+      margin: 0;
+      font-size:20px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container-autobiography">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="profile-container">
+            <img class="profile-pic" src="./cv-pic.jpg" alt="Profile Picture">
+            <div class="name">Sevgi Mehmedova</div>
+            <div class="occupation">Intern</div>
+            <div class="personal-details">
+              <h4>Personal details:</h4>
+              <ul>
+             <li> Bulgarian</li>
+             <li> Varna, Bulgaria</li>
+             <li> Phone numeber: 0896006172</li>
+             <li> Email adress:
+             sevgimehmedova01@gmail.com</li>
+             <li><a href = "https://www.linkedin.com/in/sevgi-mehmedova-425247240/" >LinkedIn</a></li>
+             <li><a href = "https://github.com/sevgimehmedova/">Github </a></li>
+              </ul>
+              <hr>
+            </div>
+              <div class="skills">
+                <h4> Skills:</h4>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>MS Office</li>
+                  <li>C#</li>
+                  <li>Python basics</li>
+                  <li>C++ basics</li>
+                  <li>.Net basics</li>
+                  <li>MS Azure basics</li>
+                  <li>Kanban basics</li>
+                </ul>
+                <hr>
+              </div>
+              <div class="qualities">
+                <h4> Qualities:</h4>
+                <ul>
+                  <li>Teamwork</li>
+                  <li>Adaptability</li>
+                  <li>Creativity</li>
+                  <li>Wilingness to learn</li>
+                  <li>Flexibilty</li>
+                  <li>Fast learning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-9">
+              <div class="section-heading">Profile</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content-1">
+                <p>Enthusiastic and patient, who learns and adapts to new environment quickly and work hard. Creative thinker and work well in team!</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div class="section-heading">Education</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content-2">
+                <h3> High School diploma</h3>
+                <p>High School "Vasil Levski" - Opaka</p>
+                <p class="text-muted">Sep 2016 - May 2020</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content-2">
+                <h3>Bachelor degree - Informatics and computer science </h3>
+                <p>University of Economics - Varna</p>
+                <p class="text-muted">Sep 2020 - present</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div class="section-heading">Experience</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content-2">
+                <h3>intern - Unbelievable digital </h3>
+                <p class="text-muted">Aug 2023 - present</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+        <div class="section-heading">Courses</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content-1">
+                <p>
+                  <ul>
+                <li>IT Masterclass 2022</li>
+                <li>KBC - Agile project management methodology</li>
+                <li>DXC - Microsoft Azure fundamentals bootcamp</li>
+                <li>Huawei - Seeds for the future 2022</li>
+                <li>Huawei ICT talent training 2021</li>
+              </ul>
+                </p>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div class="section-heading">Certificates</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content-1">
+                <p>
+                  <ul>
+                <li>SCALED AGILE - SAFe 5 practioner</li>
+                <li>DXC - Microsoft Azure fundamentals bootcamp</li>
+                <li>Huawei - Huawei - Seeds for the future</li>
+                <li>Huawei - MATH and PYTHON basics</li>
+                <li>IT Masterclass 2022</li>
+                  </ul>
+                </p>
+                <hr>
+              </div>
+            </div>
+          </div>
+             <div class="section-heading">Languages</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content-1">
+                <p>
+                  <ul>
+                <li>English</li>
+                <li>Turkish</li>
+                <li>Russian</li>
+                  </ul>
+                </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
